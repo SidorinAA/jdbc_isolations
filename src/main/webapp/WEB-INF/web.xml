@@ -11,4 +11,13 @@
         <servlet-name>servlet-test</servlet-name>
         <url-pattern>/servlet/*</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
 </web-app>
